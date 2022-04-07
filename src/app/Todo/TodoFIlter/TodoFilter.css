@@ -1,0 +1,7 @@
+.todo-filter {
+    display: flex;
+}
+
+.selected-filter {
+    background-color: blue;
+}
