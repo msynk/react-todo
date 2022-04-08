@@ -1,9 +1,9 @@
-import { createRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import './TodoForm.css';
 
 export function TodoForm({ onAdd }) {
     const [title, setTitle] = useState('');
-    const inputRef = createRef();
+    const inputRef = useRef();
 
     const handleSubmit = e => {
         e.preventDefault();

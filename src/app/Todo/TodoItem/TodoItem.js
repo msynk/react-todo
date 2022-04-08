@@ -1,8 +1,8 @@
-import { createRef, useEffect, useState } from 'react';
+import { useRef, useEffect, useState } from 'react';
 import './TodoItem.css';
 
 export function TodoItem({ todo, onToggle, onDelete, onEdit }) {
-    const inputRef = createRef();
+    const inputRef = useRef();
 
     const [isEditing, setIsEditing] = useState(false);
     const [title, setTitle] = useState(todo.title);
