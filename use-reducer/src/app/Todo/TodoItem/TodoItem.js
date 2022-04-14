@@ -1,5 +1,5 @@
 import { useRef, useEffect, useState } from 'react';
-import { ACTIONS } from '../Todo';
+import { ACTIONS } from '../reducer';
 import './TodoItem.css';
 
 export function TodoItem({ todo, dispatch }) {

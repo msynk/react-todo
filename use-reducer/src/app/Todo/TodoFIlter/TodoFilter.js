@@ -1,4 +1,4 @@
-import { ACTIONS } from '../Todo';
+import { ACTIONS } from '../reducer';
 import './TodoFilter.css';
 
 export function TodoFilter({ filters, filter, dispatch }) {

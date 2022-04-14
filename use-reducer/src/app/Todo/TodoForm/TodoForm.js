@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { ACTIONS } from '../Todo';
+import { ACTIONS } from '../reducer';
 import './TodoForm.css';
 
 export function TodoForm({ dispatch }) {
