@@ -1,5 +1,5 @@
 import { useReducer } from "react";
-import { TodoFilter } from "./TodoFIlter";
+import { TodoFilter } from "./TodoFilter";
 import { TodoForm } from "./TodoForm";
 import { TodoItem } from "./TodoItem";
 import { reducer, initialState, FILTERS_MAP, FILTERS_NAMES } from "./reducer";
